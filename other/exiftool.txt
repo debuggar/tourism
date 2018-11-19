@@ -1,0 +1,7 @@
+1. To read image metadata:
+    exiftool "file name.extension"
+
+2. Add Creator / Author to image metadata
+    exiftool -XMP-dc:Creator="Creator" "file name.extension"
+
+3. 
