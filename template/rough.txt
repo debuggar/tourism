@@ -1,0 +1,63 @@
+934px * 550
+
+2304/1536 = 900/x
+
+x= (900 * height)/width
+
+x = 900 * 1536/ 2304 = 
+
+newHeight = newWidth * res( aspectRatio )
+
+          = 
+
+900px * 600px
+
+900/2304 
+
+To resize image:
+sudo apt-get install imagemagick
+convert  -resize 50% source.png dest.jpg
+convert -resize 1024X768  source.png dest.jpg
+
+To check if something is running on a port 
+sudo netstat -lpn |grep :'3000'
+To kill same process
+kill -9 process_id(like 1192)
+
+
+Title - DONE 
+Location -DONE
+Duration - DONE
+Available -DONE 
+Monuments -DONE 
+Overview 
+Date for booking
+Inclusion and exclusion 
+Payment Policy
+Cancellation Policy
+Terms & Conditions
+Detailed Day Wise Itinerary
+About Agra
+
+Contact Seller
+Seller 
+
+Chat option 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

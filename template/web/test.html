@@ -1,0 +1,119 @@
+<html>
+<head>
+    <head>
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/fullcalendar/3.9.0/fullcalendar.css" rel="stylesheet">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.23.0/moment.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/fullcalendar/3.9.0/fullcalendar.js"></script>
+  
+    </head>
+</head>
+<body>
+
+<div>
+        <div id='calendar'></div>
+</div>
+
+<script>
+
+    $(function() {
+       /*  $('#calendar').fullCalendar({
+           
+            dayClick: function() {
+             // alert('a day has been clicked!');
+            }
+
+        });
+
+        var calendar = $('#calendar').fullCalendar('getCalendar');
+
+        calendar.on('dayClick', function(date, jsEvent, view) {
+             console.log('clicked on ' + date.format());
+        });
+
+        // a convenient utility for getting the calendar object.
+        // you can call methods on the calendar object directly.
+        var calendar = $('#calendar').fullCalendar('getCalendar');
+
+        //calendar.next(); */
+
+        $('#calendar').fullCalendar({
+            header: { 
+                center: ''
+            },
+            eventSources: [
+                {
+                events: [ 
+                    {
+                    title  : 'event1',
+                    start  : new Date()
+                    },
+                    {
+                    title  : 'event3',
+                    start  : '2018-12-26'
+                    }
+                ],
+                color: 'black', 
+                textColor: 'yellow' 
+                }
+            ]
+        });
+
+        var calendar = $('#calendar').fullCalendar('getCalendar');
+        //calendar.next();     
+        
+        //$('#calendar').fullCalendar('nextYear');
+        
+        //$('#calendar').fullCalendar('prevYear');
+        //calendar.fullCalendar('nextYear');
+
+      //  var calendar = $('#calendar').fullCalendar('getCalendar');
+
+        calendar.on('dayClick', function(date, jsEvent, view) {
+            console.log('clicked on ' + date.format());
+        });
+
+      /*   var event={id:1 , title: 'New event', start:  new Date()};
+
+        $('#calendar').fullCalendar( 'renderEvent', event, true); */
+
+
+       /*  $('#calendar').fullCalendar({
+            views: {
+                basic: {
+                // options apply to basicWeek and basicDay views
+                },
+                agenda: {
+                // options apply to agendaWeek and agendaDay views
+                },
+                week: {
+                // options apply to basicWeek and agendaWeek views
+                },
+                day: {
+                // options apply to basicDay and agendaDay views
+                }
+            }
+        }); */
+
+        /* var locale = $('#calendar').fullCalendar('option', 'locale');
+
+        console.log( locale ); */
+
+       /*  $('#calendar').fullCalendar('changeView', 'agenda', {
+            start: '2018-06-01',
+            end: '2020-06-05'
+        }); */
+
+
+
+
+
+
+
+    });
+
+
+</script>
+
+</body>
+</html>

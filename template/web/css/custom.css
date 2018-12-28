@@ -1,0 +1,34 @@
+/* Banner css */
+.banner_inner_content_agile_w3l{
+    min-height: 80px;
+}
+.header-input{
+    margin: 20px 10px;
+    width: 270px;
+    height: 35px;
+}
+.header-button{
+    height: 35px;
+    width: 260px;
+    background: #89379a;
+    border: #89379a;
+    color: white;
+}
+.header-checkbox{
+    display: inline-block;
+}
+.checkbox-inline{
+    font-weight: 500;
+}
+.checkbox-inline input[type="checkbox"] {
+    margin-left: -30px;
+    margin-top: 0;
+}
+/*  */
+.details{
+    padding: 0;
+    margin: 20px 0;
+}
+.slider-image{
+    
+}
